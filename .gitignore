@@ -2,3 +2,5 @@ test.*
 new_sets/*
 
 .vscode/*
+
+cate/*

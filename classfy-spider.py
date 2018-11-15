@@ -63,7 +63,10 @@ dir_name = "new_sets"
 dir_list = listdir(path.join(dir_name))
 # print(dirlist)
 item_url = "https://item.iqon.jp/"
-
+dir_list = ['2467725.json',
+'2760867.json',
+'2915420.json',
+'2956852.json']
 for i in dir_list:
     t = Thread_cate_spider(i)
     t.start()

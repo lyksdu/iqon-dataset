@@ -80,6 +80,7 @@ class test_UrlThread(threading.Thread):
             # ''')
             # orm.commit()
             # orm.close()
+            
             with open(f"sets\{self.Id}.json",'w') as fp:
                 json.dump(set_dictionary,fp)
 
